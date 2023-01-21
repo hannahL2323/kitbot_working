@@ -40,7 +40,7 @@ public class Robot extends TimedRobot {
    * used for any initialization code.
    */
   public void robotInit() {
-    Camera = CameraServer.startAutomaticCapture(0);
+    Camera = CameraServer.startAutomaticCapture(RobotMap.camera);
     // m_Chooser.setDefaultOption("Lowspeed", 0.5);
     // m_Chooser.addOption("Highspeed", 1.0);
     // SmartDashboard.putData(m_Chooser);
