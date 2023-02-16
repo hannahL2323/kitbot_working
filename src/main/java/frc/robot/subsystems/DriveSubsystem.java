@@ -38,10 +38,10 @@ public class DriveSubsystem extends SubsystemBase {
     // }
 
     // Drive the left and right sides of the talons
-    Left1.set(ControlMode.PercentOutput,-left);
-    Left2.set(ControlMode.PercentOutput,-left);
-    Right1.set(ControlMode.PercentOutput,right * 0.7);
-    Right2.set(ControlMode.PercentOutput,right * 0.7);
+    Left1.set(ControlMode.PercentOutput,left);
+    Left2.set(ControlMode.PercentOutput,left);
+    Right1.set(ControlMode.PercentOutput,-right);
+    Right2.set(ControlMode.PercentOutput,-right);
 
     // Left1.configPeakOutputForward(1);
     // Left1.configPeakOutputReverse(-1);
